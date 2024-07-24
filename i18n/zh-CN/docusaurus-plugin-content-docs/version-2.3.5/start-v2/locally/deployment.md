@@ -24,6 +24,8 @@ import TabItem from '@theme/TabItem';
 export version="2.3.5"
 wget "https://archive.apache.org/dist/seatunnel/${version}/apache-seatunnel-${version}-bin.tar.gz"
 tar -xzvf "apache-seatunnel-${version}-bin.tar.gz"
+## 注意这里的文件名需要改为seatunnel
+mv apache-seatunnel-${version}  seatunnel
 ```
 
 ## 步骤 3: 安装连接器插件
